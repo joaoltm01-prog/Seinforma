@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^6.0.3",
+    "drizzle-orm": "^1.0.0-beta.22",
+    "openai": "^7.47.0"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-encoding.mjs",
+    "test": "node --import tsx --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^1.0.0-beta.22",
+    "linkedom": "^0.18.15",
+    "tsx": "^4.23.15"
+  }
+}

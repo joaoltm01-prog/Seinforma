@@ -1,0 +1,1 @@
+CREATE INDEX "book_passages_search_idx" ON "book_passages" USING gin (to_tsvector('english', "content"));
